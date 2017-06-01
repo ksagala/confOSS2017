@@ -138,26 +138,41 @@ module.exports = {
       {
         name: "Emil Wasilewski",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
+        bio: "Cloud Solution Architect, trener, konsultant. Microsoft Most Valuable Professional w kategorii Microsoft Azure",
+        company: "Cloudeon A/S",
         link: {
           href: "https://twitter.com/WasilewskiEmil",
           text: "@WasilewskiEmil"
         },
         presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
+          description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
           time: "16h00"
         }
       },
       {
-        name: "Łukasz Kałużny",
+        name: "Rafał Langowski",
+        photo: "themes/yellow-swan/img/speaker.jpg",
+        bio: "Cloud Solution Architect, trener, konsultant. Microsoft Most Valuable Professional w kategorii Microsoft Azure",
+        company: "Microsoft",
+        link: {
+          href: "https://twitter.com/WasilewskiEmil",
+          text: "@WasilewskiEmil"
+        },
+        presentation: {
+          title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
+          description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
+          time: "16h00"
+        }
+      },
+      {
+        name: "Adam Marczak",
         photo: "themes/yellow-swan/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Lingaro",
         link: {
-          href: "https://twitter.com/kaluzaaa",
-          text: "@kaluzaaa"
+          href: "https://www.linkedin.com/in/adam-marczak-96088929/",
+          text: "Adam Marczak@LinkedIn"
         },
         presentation: {
           title: "Why do I prefer Android over iPhone",
