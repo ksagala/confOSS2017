@@ -179,7 +179,7 @@ module.exports = {
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
+        name: "APN Promise S.A.",
         logo: "themes/yellow-swan/img/partner.png",
         url: "http://braziljs.org"
       }
