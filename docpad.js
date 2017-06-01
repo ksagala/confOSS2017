@@ -181,7 +181,22 @@ module.exports = {
       {
         name: "APN Promise S.A.",
         logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        url: "http://www.promise.pl"
+      },
+      {
+        name: "Audiocodes",
+        logo: "themes/yellow-swan/img/partner.png",
+        url: "http://www.audiocodes.com"
+      },
+      {
+        name: "Microsoft",
+        logo: "themes/yellow-swan/img/partner.png",
+        url: "http://www.microsoft.com"
+      },
+      {
+        name: "Polycom",
+        logo: "themes/yellow-swan/img/partner.png",
+        url: "http://www.polycom.com"
       }
     ],
 
