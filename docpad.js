@@ -64,13 +64,13 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Rejestracja",
         time: "9h00"
       },
       {
         name: "Konrad Sagała",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "Konrad od 1993 zajmuje się projektowaniem i wdrażaniem systemów informatycznych opartych o różne platformy sieciowe, od 1996 związany z platformą Microsoft Windows Server. Do jego specjalności należą: projektowanie i zarządzanie systemami usług pocztowych MS Exchange i pracy grupowej Skype for Business, projektowanie i zarządzanie systemami usług katalogowych MS Active Directory, projektowanie i zarządzanie infrastrukturą sieciową, usługami bezpieczeństwa i zarządzania tożsamością. Twórca Polskiej Grupy Profesjonalistów i Użytkowników Exchange PEPUG. Od 10 lat otrzymuje tytuł MVP, przez 9 lat w kategorii Exchange Server, ostatnio w kategorii Office Servers & Services.",
         company: "APN Promise S.A.",
         link: {
           href: "http://twitter.com/sagus",
@@ -85,7 +85,7 @@ module.exports = {
       {
         name: "Jacek Światowiak",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "Jacek jest absolwentem Politechniki Gdańskiej, gdzie od 2002 jest wykładowcą na Podyplomowym Studium. Autor szeregu publikacji, prelegent, trener i architekt rozwiązań serwerowych Microsoft, w szczególności z zakresu bezpieczeństwa, usług katologowych i usług komunikacyjnych. Od kilku lat wyróżnianiany przez Microsoft nagrodą MVP, ostatnio w kategorii Office Servers & Services.​",
         company: "APN Promise S.A.",
         link: {
           href: "http://github.com/billy95",
@@ -102,7 +102,7 @@ module.exports = {
         time: "12h00"
       },
       {
-        name: "Chuck Norris",
+        name: "Marcin Iwanowski",
         photo: "themes/yellow-swan/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Delta Command",
@@ -111,19 +111,19 @@ module.exports = {
           text: "@littlechuck"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "'Dziwne, u mnie działa'. SharePoint debugging z użyciem WinDbg",
+          description: "W codziennej pracy programisty spotykamy się często z typowym stwierdzeniem 'Dziwne, u mnie działa'. Zazwyczaj w takim momencie jesteśmy świadkami niebanalnego problemu, nienadającego się do diagnozy z użyciem Visual Studio, a im bliżej środowiska produkcyjnego dany problem wystąpił tym sytuacja jest bardziej dramatyczna. Celem sesji jest wyposażenie słuchaczy, programistów .NET / SharePoint, w nową (starą) broń do walki z tego typu zdarzeniami.",
           time: "13h00"
         }
       },
       {
-        name: "Steve Jobs",
+        name: "Kamil Bączyk",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        bio: "Certyfikowany specjalista i pasjonat technologii, na co dzień konsultant i trener. Regularny uczestnik wielu projektów i wdrożeń związanych z technologiami serwerowymi Microsoft, chmurą prywatną i grupą BPOS - głównie środowisk opartych o Microsoft SharePoint, stanowiących biznesową podstawę przedsiębiorstw. Aktywnie dzieli się swoją wiedzą i promuje nowe rozwiązania wspierając społeczności offline i online WGUiSW, dodatkowo jeden z liderów PInG, laureat konkursu Speaker Idol 2009 i specjalista w 'Ask The Expert' na Microsoft Technology Summit. Microsoft MVP w kategorii Office Servers & Services.​",
+        company: "APN Promise S.A.",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
+          href: "https://twitter.com/KamilBaczyk",
+          text: "@KamilBaczyk"
         },
         presentation: {
           title: "Presenting iPad",
@@ -136,13 +136,13 @@ module.exports = {
         time: "15h00"
       },
       {
-        name: "Mark Zuckerberg",
+        name: "Emil Wasilewski",
         photo: "themes/yellow-swan/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Facebook",
         link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
+          href: "https://twitter.com/WasilewskiEmil",
+          text: "@WasilewskiEmil"
         },
         presentation: {
           title: "Revealing Facebook Secrets",
@@ -151,13 +151,13 @@ module.exports = {
         }
       },
       {
-        name: "Steve Wozniak",
+        name: "Łukasz Kałużny",
         photo: "themes/yellow-swan/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        company: "Lingaro",
         link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
+          href: "https://twitter.com/kaluzaaa",
+          text: "@kaluzaaa"
         },
         presentation: {
           title: "Why do I prefer Android over iPhone",
