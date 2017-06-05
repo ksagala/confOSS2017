@@ -65,7 +65,11 @@ module.exports = {
     schedule: [
       {
         name: "Rejestracja",
-        time: "9h00"
+        time: "8:30-9:15"
+      },
+      {
+        name: "Rozpoczęcie Konferencji",
+        time: "9:15-9:30"
       },
       {
         name: "Konrad Sagała",
@@ -77,9 +81,9 @@ module.exports = {
           text: "@sagus"
         },
         presentation: {
-          title: "Nowości w Exchange 2016",
-          description: "Dlaczego warto wdrażać Exchange 2016",
-          time: "10h00"
+          title: "CloudPBX - telefonia w chmurze",
+          description: "Jak wdrażać usługi głosowe w polączeniu z telefonią Skype for Business Online",
+          time: "9:30-10:45"
         }
       },
       {
@@ -88,18 +92,37 @@ module.exports = {
         bio: "Jacek jest absolwentem Politechniki Gdańskiej, gdzie od 2002 jest wykładowcą na Podyplomowym Studium. Autor szeregu publikacji, prelegent, trener i architekt rozwiązań serwerowych Microsoft, w szczególności z zakresu bezpieczeństwa, usług katologowych i usług komunikacyjnych. Od kilku lat wyróżnianiany przez Microsoft nagrodą MVP, ostatnio w kategorii Office Servers & Services.​",
         company: "APN Promise S.A.",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Nowe funkcjonalności w Skype for Business 2015",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          title: "Sposoby uwierzytelnienia w Office 365",
+          description: "Coraz więcej firm używa Office365 i zapewnienie odpowiedniego poziomu zabezpieczeń jest bardzo istotne. Sesja przedstawi nowe i nieco starsze metody uwierzytelnienia i weryfikacji wużytkowników usługi Office 365",
+          time: "11:00-12:15"
         }
       },
       {
         name: "Lunch",
-        time: "12h00"
+        time: "12:15-13:00"
+      },
+      {
+        name: "Rafał Langowski",
+        photo: "themes/yellow-swan/img/speaker.jpg",
+        bio: "",
+        company: "Microsoft",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
+          description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
+          time: "13:00-14:15"
+        }
+      },
+      {
+        name: "Przerwa",
+        time: "14:15-14:30"
       },
       {
         name: "Marcin Iwanowski",
@@ -113,7 +136,7 @@ module.exports = {
         presentation: {
           title: "'Dziwne, u mnie działa'. SharePoint debugging z użyciem WinDbg",
           description: "W codziennej pracy programisty spotykamy się często z typowym stwierdzeniem 'Dziwne, u mnie działa'. Zazwyczaj w takim momencie jesteśmy świadkami niebanalnego problemu, nienadającego się do diagnozy z użyciem Visual Studio, a im bliżej środowiska produkcyjnego dany problem wystąpił tym sytuacja jest bardziej dramatyczna. Celem sesji jest wyposażenie słuchaczy, programistów .NET / SharePoint, w nową (starą) broń do walki z tego typu zdarzeniami.",
-          time: "13h00"
+          time: "14:30-15:45"
         }
       },
       {
@@ -126,14 +149,33 @@ module.exports = {
           text: "@KamilBaczyk"
         },
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
+          title: "Presenting ",
+          description: "",
+          time: "9:30-10:45"
         }
       },
       {
-        name: "Coffee-break",
-        time: "15h00"
+        name: "Przerwa",
+        time: "10:45-11:00"
+      },
+      {
+        name: "Łukasz Kałużny",
+        photo: "themes/yellow-swan/img/speaker.jpg",
+        bio: "Cloud Architect, trener, konsultant. Microsoft Most Valuable Professional w kategorii Microsoft Azure",
+        company: "Lingaro",
+        link: {
+          href: "https://twitter.com/kaluzaaa",
+          text: "@kaluzaaa"
+        },
+        presentation: {
+          title: "",
+          description: "",
+          time: "13:00-14-15"
+        }
+      },
+      {
+        name: "Lunch",
+        time: "12:15-13:00"
       },
       {
         name: "Emil Wasilewski",
@@ -147,37 +189,26 @@ module.exports = {
         presentation: {
           title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
           description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
-          time: "16h00"
+          time: "13:00-14-15"
         }
       },
       {
-        name: "Rafał Langowski",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Cloud Solution Architect, trener, konsultant. Microsoft Most Valuable Professional w kategorii Microsoft Azure",
-        company: "Microsoft",
-        link: {
-          href: "https://twitter.com/WasilewskiEmil",
-          text: "@WasilewskiEmil"
-        },
-        presentation: {
-          title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
-          description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
-          time: "16h00"
-        }
+        name: "Przerwa",
+        time: "14:15-14:30"
       },
       {
         name: "Adam Marczak",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "",
         company: "Lingaro",
         link: {
           href: "https://www.linkedin.com/in/adam-marczak-96088929/",
           text: "Adam Marczak@LinkedIn"
         },
         presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
+          title: "Azure bot z użyciem connectorow dla Skype for Business i MS Teams",
+          description: "",
+          time: "14:30-15:45"
         }
       }
     ],
