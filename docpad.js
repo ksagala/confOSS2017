@@ -45,7 +45,7 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors',
+      //'sponsors',
       'partners'
       // 'contact'
     ],
@@ -69,7 +69,7 @@ module.exports = {
       },
       {
         name: "Konrad Sagała",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/yellow-swan/img/konsag.jpg",
         bio: "Konrad od 1993 zajmuje się projektowaniem i wdrażaniem systemów informatycznych opartych o różne platformy sieciowe, od 1996 związany z platformą Microsoft Windows Server. Do jego specjalności należą: projektowanie i zarządzanie systemami usług pocztowych MS Exchange i pracy grupowej Skype for Business, projektowanie i zarządzanie systemami usług katalogowych MS Active Directory, projektowanie i zarządzanie infrastrukturą sieciową, usługami bezpieczeństwa i zarządzania tożsamością. Twórca Polskiej Grupy Profesjonalistów i Użytkowników Exchange PEPUG. Od 10 lat otrzymuje tytuł MVP, przez 9 lat w kategorii Exchange Server, ostatnio w kategorii Office Servers & Services.",
         company: "APN Promise S.A.",
         link: {
@@ -84,7 +84,7 @@ module.exports = {
       },
       {
         name: "Jacek Światowiak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/yellow-swan/img/jacek.jpg",
         bio: "Jacek jest absolwentem Politechniki Gdańskiej, gdzie od 2002 jest wykładowcą na Podyplomowym Studium. Autor szeregu publikacji, prelegent, trener i architekt rozwiązań serwerowych Microsoft, w szczególności z zakresu bezpieczeństwa, usług katologowych i usług komunikacyjnych. Od kilku lat wyróżnianiany przez Microsoft nagrodą MVP, ostatnio w kategorii Office Servers & Services.​",
         company: "APN Promise S.A.",
         link: {
@@ -118,7 +118,7 @@ module.exports = {
       },
       {
         name: "Kamil Bączyk",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/yellow-swan/img/baczyk.jpg",
         bio: "Certyfikowany specjalista i pasjonat technologii, na co dzień konsultant i trener. Regularny uczestnik wielu projektów i wdrożeń związanych z technologiami serwerowymi Microsoft, chmurą prywatną i grupą BPOS - głównie środowisk opartych o Microsoft SharePoint, stanowiących biznesową podstawę przedsiębiorstw. Aktywnie dzieli się swoją wiedzą i promuje nowe rozwiązania wspierając społeczności offline i online WGUiSW, dodatkowo jeden z liderów PInG, laureat konkursu Speaker Idol 2009 i specjalista w 'Ask The Expert' na Microsoft Technology Summit. Microsoft MVP w kategorii Office Servers & Services.​",
         company: "APN Promise S.A.",
         link: {
@@ -137,7 +137,7 @@ module.exports = {
       },
       {
         name: "Emil Wasilewski",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/yellow-swan/img/emil.jpg",
         bio: "Cloud Solution Architect, trener, konsultant. Microsoft Most Valuable Professional w kategorii Microsoft Azure",
         company: "Cloudeon A/S",
         link: {
@@ -195,22 +195,22 @@ module.exports = {
     partners: [
       {
         name: "APN Promise S.A.",
-        logo: "themes/yellow-swan/img/partner.png",
+        logo: "themes/yellow-swan/img/logoPromise.png",
         url: "http://www.promise.pl"
       },
       {
         name: "Audiocodes",
-        logo: "themes/yellow-swan/img/partner.png",
+        logo: "themes/yellow-swan/img/audiocodes.png",
         url: "http://www.audiocodes.com"
       },
       {
         name: "Microsoft",
-        logo: "themes/yellow-swan/img/partner.png",
+        logo: "themes/yellow-swan/img/ms.png",
         url: "http://www.microsoft.com"
       },
       {
         name: "Polycom",
-        logo: "themes/yellow-swan/img/partner.png",
+        logo: "themes/yellow-swan/img/polycom.png",
         url: "http://www.polycom.com"
       }
     ],
