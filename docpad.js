@@ -53,12 +53,12 @@ module.exports = {
     // Labels which you can translate to other languages
     labels: {
       about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      location: "Lokalizacja",
+      speakers: "Prelegenci",
+      schedule: "Agenda",
+      sponsors: "Sponsorzy",
+      partners: "Partnerzy",
+      contact: "Kontakt"
     },
 
     // The entire schedule
@@ -160,7 +160,7 @@ module.exports = {
       },
       {
         name: "Łukasz Kałużny",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/yellow-swan/img/lukaszkaluzny.jpg",
         bio: "Cloud Architect, trener, konsultant. Microsoft Most Valuable Professional w kategorii Microsoft Azure",
         company: "Lingaro",
         link: {
