@@ -52,7 +52,7 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
+      about: "Ogólnie",
       location: "Lokalizacja",
       speakers: "Prelegenci",
       schedule: "Agenda",
@@ -170,7 +170,7 @@ module.exports = {
         presentation: {
           title: "",
           description: "",
-          time: "13:00-14-15"
+          time: "11:00-12:15"
         }
       },
       {
