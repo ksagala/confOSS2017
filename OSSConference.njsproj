@@ -1,0 +1,126 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>OSSConference</Name>
+    <RootNamespace>OSSConference</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7fa33ab3-ad16-4fb2-bd0b-e142fc651a0c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>docpad1.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="docpad.js" />
+    <Compile Include="docpad1.js" />
+    <Compile Include="src\documents\themes\yellow-swan\js\jquery.js" />
+    <Compile Include="src\documents\themes\yellow-swan\js\main.js" />
+    <Content Include=".travis.yml" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="src\documents\index.html.eco" />
+    <Content Include="src\documents\themes\yellow-swan\css\base.less" />
+    <Content Include="src\documents\themes\yellow-swan\css\main.css.less" />
+    <Content Include="src\documents\themes\yellow-swan\css\reset.less" />
+    <Content Include="src\documents\themes\yellow-swan\css\theme.less" />
+    <Content Include="src\documents\themes\yellow-swan\css\_mixins.less" />
+    <Content Include="src\documents\themes\yellow-swan\img\apple-touch-icon.png" />
+    <Content Include="src\documents\themes\yellow-swan\img\audiocodes.png" />
+    <Content Include="src\documents\themes\yellow-swan\img\baczyk.jpg" />
+    <Content Include="src\documents\themes\yellow-swan\img\badge.jpg" />
+    <Content Include="src\documents\themes\yellow-swan\img\cover.jpg" />
+    <Content Include="src\documents\themes\yellow-swan\img\emil.jpg" />
+    <Content Include="src\documents\themes\yellow-swan\img\favicon.ico" />
+    <Content Include="src\documents\themes\yellow-swan\img\jacek.jpg" />
+    <Content Include="src\documents\themes\yellow-swan\img\konsag.jpg" />
+    <Content Include="src\documents\themes\yellow-swan\img\logoPromise.png" />
+    <Content Include="src\documents\themes\yellow-swan\img\marker-default.png" />
+    <Content Include="src\documents\themes\yellow-swan\img\ms.png" />
+    <Content Include="src\documents\themes\yellow-swan\img\partner.png" />
+    <Content Include="src\documents\themes\yellow-swan\img\polycom.png" />
+    <Content Include="src\documents\themes\yellow-swan\img\speaker.jpg" />
+    <Content Include="src\documents\themes\yellow-swan\img\sponsor.png" />
+    <Content Include="src\documents\themes\yellow-swan\img\your-logo.jpg" />
+    <Content Include="src\layouts\default.html.eco" />
+    <Content Include="src\partials\header.html.eco" />
+    <Content Include="src\partials\nav.html.eco" />
+    <Content Include="src\partials\section\about.html.eco" />
+    <Content Include="src\partials\section\contact.html.eco" />
+    <Content Include="src\partials\section\location.html.eco" />
+    <Content Include="src\partials\section\partners.html.eco" />
+    <Content Include="src\partials\section\schedule.html.eco" />
+    <Content Include="src\partials\section\speakers.html.eco" />
+    <Content Include="src\partials\section\sponsors.html.eco" />
+    <Content Include="_config.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\documents\" />
+    <Folder Include="src\documents\themes\" />
+    <Folder Include="src\documents\themes\yellow-swan\" />
+    <Folder Include="src\documents\themes\yellow-swan\css\" />
+    <Folder Include="src\documents\themes\yellow-swan\img\" />
+    <Folder Include="src\documents\themes\yellow-swan\js\" />
+    <Folder Include="src\layouts\" />
+    <Folder Include="src\partials\" />
+    <Folder Include="src\partials\section\" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
