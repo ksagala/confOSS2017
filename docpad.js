@@ -20,10 +20,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    //callToAction: {
-    //    text: "Register now!",
-    //    link: "http://eventick.com.br"
-    //},
+    callToAction: {
+        text: "Zarejestruj się!",
+        link: "https://officeserverssummit2017.evenea.pl/"
+    },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     //forkButton: {
@@ -107,7 +107,7 @@ module.exports = {
       },
       {
         name: "Rafał Langowski",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/yellow-swan/img/Rafal.jpg",
         bio: "",
         company: "Microsoft",
         link: {
@@ -115,8 +115,8 @@ module.exports = {
           text: ""
         },
         presentation: {
-          title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
-          description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
+          title: "Session and Media Establishment in Skype for Business",
+          description: "Celem sesji jest omówienie metod i protokołów używanych podczas komunikacji klientów Skype for Business. Poruszona zostanie zarówno komunikacja klient-klient jak również klient-serwer, omówione zostaną protokoły SIP, SDP i sRTP oraz najlepsze praktyki dla zapewnienie optymalnej jakości połączeń.",
           time: "13:00-14:15"
         }
       },
@@ -127,8 +127,8 @@ module.exports = {
       {
         name: "Marcin Iwanowski",
         photo: "themes/yellow-swan/img/MarcinIwanowski.png",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        bio: "Scrum Master / Starszy Programista SharePoint w F. Hoffmann-La Roche (poprzez 7N). Aktywny trener współpracujący z największymi ośrodkami edukacyjnymi w Polsce. Wykładowca Warszawskiej Wyższej Szkoły Informatyki. Od 2011 roku Microsoft Most Valuable Professional w kategorii Windows Platform Development. Prelegent wielu wydarzeń ogólnopolskich oraz spotkań społeczności .NET. Były lider 'Białostockiej Grupy .NET' a wcześniej największej w Polsce akademickiej grupy 'Grupa .NET Politechniki Białostockiej'. Od 2010 roku magister inżynier Informatyki, absolwent Politechniki Białostockiej.",
+        company: "Hoffmann-La Roche",
         link: {
           href: "http://twitter.com/littlechuck",
           text: "@littlechuck"
