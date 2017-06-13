@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "Office Servers Summit 2017",
-      description: "Konferencja społecznościowa, poświęcona technologiom związanym z Office 365, Exchange 2016, Skype for Business 2015 i Sharepoint 2016",
+      description: "Office Servers Summit 2017 to konferencja społecznościowa, poświęcona technologiom związanym z Office 365, Exchange 2016, Skype for Business 2015 i Sharepoint 2016",
       date: "19 czerwca 2017",
       // If your event is free, just comment this line
       // price: "$100",
@@ -168,7 +168,7 @@ module.exports = {
           text: "@kaluzaaa"
         },
         presentation: {
-          title: "",
+          title: "Presenting",
           description: "",
           time: "11:00-12:15"
         }
@@ -189,7 +189,7 @@ module.exports = {
         presentation: {
           title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
           description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
-          time: "13:00-14-15"
+          time: "13:00-14:15"
         }
       },
       {
