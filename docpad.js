@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "Office Servers Summit 2017",
-      description: "Office Servers Summit 2017 to konferencja społecznościowa, poświęcona technologiom związanym z Office 365, Exchange 2016, Skype for Business 2015 i Sharepoint 2016",
+      description: "Konferencja społecznościowa, poświęcona technologiom związanym z Office 365, Exchange 2016, Skype for Business 2015 i Sharepoint 2016",
       date: "19 czerwca 2017",
       // If your event is free, just comment this line
       // price: "$100",
@@ -69,7 +69,11 @@ module.exports = {
       },
       {
         name: "Rozpoczęcie Konferencji",
-        time: "9:15-9:30"
+        time: "9:15-9:25"
+      },
+      {
+        name: "Ścieżka Communication",
+        time: "9:25-9:30"
       },
       {
         name: "Konrad Sagała",
@@ -140,6 +144,10 @@ module.exports = {
         }
       },
       {
+        name: "Ścieżka Collaboration",
+        time: "9:25-9:30"
+      },
+      {
         name: "Kamil Bączyk",
         photo: "themes/yellow-swan/img/baczyk.jpg",
         bio: "Certyfikowany specjalista i pasjonat technologii, na co dzień konsultant i trener. Regularny uczestnik wielu projektów i wdrożeń związanych z technologiami serwerowymi Microsoft, chmurą prywatną i grupą BPOS - głównie środowisk opartych o Microsoft SharePoint, stanowiących biznesową podstawę przedsiębiorstw. Aktywnie dzieli się swoją wiedzą i promuje nowe rozwiązania wspierając społeczności offline i online WGUiSW, dodatkowo jeden z liderów PInG, laureat konkursu Speaker Idol 2009 i specjalista w 'Ask The Expert' na Microsoft Technology Summit. Microsoft MVP w kategorii Office Servers & Services.​",
@@ -189,7 +197,7 @@ module.exports = {
         presentation: {
           title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
           description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
-          time: "13:00-14:15"
+          time: "13:00-14-15"
         }
       },
       {
