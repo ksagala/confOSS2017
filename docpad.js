@@ -20,21 +20,15 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Zarejestruj się!",
-        link: "https://officeserverssummit2017.evenea.pl/"
-    },
-
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    //forkButton: {
-    //    repository: "https://github.com/braziljs/conf-boilerplate"
+    //callToAction: {
+    //    text: "Zarejestruj się!",
+    //    link: "https://officeserverssummit2017.evenea.pl/"
     //},
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      url: "http://officeserverssummit2017.pepug.org"
     },
 
     // Active sections on the website
@@ -72,7 +66,7 @@ module.exports = {
         time: "9:15-9:25"
       },
       {
-        name: "Ścieżka Communication",
+        name: "Ścieżka Communications",
         time: "9:25-9:30"
       },
       {
@@ -144,7 +138,7 @@ module.exports = {
         }
       },
       {
-        name: "Ścieżka Collaboration",
+        name: "Ścieżka Productivity",
         time: "9:25-9:30"
       },
       {
@@ -157,14 +151,33 @@ module.exports = {
           text: "@KamilBaczyk"
         },
         presentation: {
-          title: "Presenting ",
-          description: "",
+          title: "(Nie)Bezpieczeństwo danych w Office 365 - fakty i mity",
+          description: "Myślisz sobie 'co złego może mi się stać' albo 'mnie ten temat nie dotyczy'. Zatem zdecydowanie jest to sesja dla Ciebie. Poruszone zostaną między innymi takie aspekty jak: kto, kiedy i czy ma dostęp do danych? Jak podnieść poziom bezpieczeństwa organizacji i jak sprawdzać co się dzieje z chmurą. Zgłębimy takie zagadnienia jak ATP, LockBox, szyfrowanie i kontrola danych, ASM i wykrywanie ataków w/z organizacji.  Mówią 'data is the new oil' stąd cyberbezpieczeństwo stało się codziennością, zatem ta sesja pozwoli odpowiedzieć na pytanie 'Czy jeśli zostanę zaatakowany, to będę w stanie odpowiednio zareagować ?'",
           time: "9:30-10:45"
         }
       },
       {
         name: "Przerwa",
         time: "10:45-11:00"
+      },
+      {
+        name: "Emil Wasilewski",
+        photo: "themes/yellow-swan/img/emil.jpg",
+        bio: "Cloud Solution Architect, trener, konsultant. Microsoft Most Valuable Professional w kategorii Microsoft Azure",
+        company: "Cloudeon A/S",
+        link: {
+          href: "https://twitter.com/WasilewskiEmil",
+          text: "@WasilewskiEmil"
+      },
+        presentation: {
+          title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
+          description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
+          time: "11:00-12:15"
+        }
+      },
+      {
+        name: "Lunch",
+        time: "12:15-13:00"
       },
       {
         name: "Łukasz Kałużny",
@@ -176,28 +189,9 @@ module.exports = {
           text: "@kaluzaaa"
         },
         presentation: {
-          title: "Presenting",
+          title: "Office Add-Ins",
           description: "",
-          time: "11:00-12:15"
-        }
-      },
-      {
-        name: "Lunch",
-        time: "12:15-13:00"
-      },
-      {
-        name: "Emil Wasilewski",
-        photo: "themes/yellow-swan/img/emil.jpg",
-        bio: "Cloud Solution Architect, trener, konsultant. Microsoft Most Valuable Professional w kategorii Microsoft Azure",
-        company: "Cloudeon A/S",
-        link: {
-          href: "https://twitter.com/WasilewskiEmil",
-          text: "@WasilewskiEmil"
-        },
-        presentation: {
-          title: "Microsoft PowerApps, Flow i Azure AD – mieszanka wybuchowa",
-          description: "Podczas sesji zbudujemy prostą aplikację w PowerApps, która wykorzystując dane z SharePoint List pozwoli użytkownikowi uzyskać dostęp do grupy zabezpieczeń w Active Directory. Brzmi skomplikowanie? To tylko pozory, przyjdź i sprawdź jakie to proste!",
-          time: "13:00-14-15"
+          time: "13:00-14:15"
         }
       },
       {
